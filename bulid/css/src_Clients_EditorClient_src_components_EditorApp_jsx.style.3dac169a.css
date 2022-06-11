@@ -1,0 +1,473 @@
+/*!***********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/EditorClient/src/css/navbar.css ***!
+  \***********************************************************************************************/
+.editor-nav{
+    height:1.4rem;
+    width:100vw;
+    background-color: white;
+    font-family: monospace;
+    position:fixed;
+    font-size: 0.2rem;
+    background-color: #2d386e;
+    border-bottom: 0.5px solid #2d386e ;
+    color: #2d386e;
+    z-index:2;
+}
+
+.editor-navbarLeft{
+    display: inline;
+    float: left;
+    margin-left: 3.3vw;
+}
+
+#editor-navbarCompanyLogo{
+    position: absolute;
+    top:0.7rem;
+    left:5.4vw;
+    height:1.2rem;
+    line-height: 1.2rem;
+    width:1.8rem;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+
+#editor-home{
+    display: inline;
+    margin-left: 8.8vw;
+    line-height: 1.4rem;
+    font-size: 0.4rem;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.editor-navbarRight{
+    display: inline;
+    float: right;
+    margin-right: 1.3vw;
+}
+
+#editor-cog{
+    display: inline;
+    color: white;
+    background-color: inherit;
+    font-size: 0.6rem;
+    border: none;
+    width:0.8rem;
+    line-height: 1.4rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*!**********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/EditorClient/src/css/title.css ***!
+  \**********************************************************************************************/
+.editor-title{
+    font-family: monospace;
+    margin-top:2rem;
+}
+
+.editor-title-input{
+    width: 100%;
+    height: 1rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom:1px solid rgb(195, 197, 197);
+    box-sizing: content-box;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    font-size: 0.6rem;
+    background-color: rgb(248, 248, 248);
+    font-family: monospace;
+}
+
+.editor-title-input::placeholder{
+    color: black;
+    font-size: 0.6rem;
+}
+/*!*************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/EditorClient/src/css/selector.css ***!
+  \*************************************************************************************************/
+.editor-select{
+    background-color:#2d386e;
+    height:1.2rem;
+    padding:0.2rem 0 0.2rem 0;
+    box-sizing: border-box;
+}
+
+.editor-selector{
+    display: flex;
+    height: 0.8rem;
+    font-size: 0.4rem;
+    width: 75%;
+    margin: auto;
+    justify-content: space-evenly;
+    float: right;
+}
+
+.editor-selector button{
+    color: white;
+    background-color: inherit;
+    font-size: 0.4rem;
+    border: none;
+    width:0.8rem;
+    text-align: center;
+}
+
+.editor-selector button:hover{
+    background-color: white;
+    color:rgb(45,56,110);
+    border-radius: 0.2rem;
+    
+}
+
+.editor-showpreview-div{
+    display: flex;
+    height:0.8rem;
+    width:25%;
+    margin-bottom: 10px;
+    margin: auto;
+    justify-content:space-evenly;
+}
+
+.editor-showpreview{
+    display: block;
+    border-style: none;
+    margin: 0 auto;
+    color:white;
+    background-color: inherit;
+    border: none;
+    width: 0.8rem;
+    font-size:0.5rem;
+    text-align: center;
+}
+
+.editor-showpreview-div button:hover{
+    background-color:white;
+    color:#4ba4fa;
+    border-radius: 0.2rem;
+}
+/*!**********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/EditorClient/src/css/input.css ***!
+  \**********************************************************************************************/
+
+.editor-blogInput{
+    display: block;
+    height:50vh;
+    padding: 0.4rem;
+    width: 100%;
+    margin-bottom:.25rem;
+    border: 1px solid rgb(195, 197, 197);
+    background-color: rgb(248, 248, 248);
+    resize: none;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+.editor-blogInput::placeholder{
+    color: black;
+    font-size: 0.4rem;
+}
+/*!***********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/EditorClient/src/css/submit.css ***!
+  \***********************************************************************************************/
+#editor-submitBlog{
+    display: block;
+    width:100%;
+    height:100%;
+    color:rgb(45,56,110);
+    border: none;
+    border: 1px solid rgb(195, 197, 197);
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+    font-size:.40rem;
+    font-weight: 600;
+}
+
+#editor-submitBlog:active{
+    border: 1px solid rgb(48, 49, 49);
+    color: rgb(13, 26, 87);
+    background-color:rgba(208, 211, 226, 0.5);
+}
+
+.editor-submitDiv{
+    height:1rem;
+    margin-bottom: 10px;
+}
+/*!************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/EditorClient/src/css/preview.css ***!
+  \************************************************************************************************/
+.editor-preview{
+    width:60vw;
+    margin: 0 auto;
+}
+
+.editor-close {
+    color: rgb(45,62,80);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .editor-close:hover,
+  .editor-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/EditorClient/src/components/Preview/Blog.css ***!
+  \************************************************************************************************************/
+    
+    .quote {
+      font-family: Georgia, serif;
+      font-size: 14px;
+      font-style: italic;
+      background-color: rgba(45, 62, 80,0.2);
+      padding: 10px;
+      margin-top:0.2rem;
+      margin-bottom:0.2rem;
+    }
+    
+    .curly-quotes{
+      padding-left: 52px;
+    }
+
+    .curly-quotes:before, .curly-quotes:after {
+      display: block;
+      height: 30px;
+      line-height: 48px;
+      font-size: 50px;
+      opacity: .4;
+      margin-left: 4px;
+      margin-right: -8px;
+    }
+    
+    .curly-quotes:before {
+      content: '\201C';
+    }
+    
+    .curly-quotes:after {
+      content: '\201D';
+    }
+    
+    ::marker{
+        margin-right:1.5vw;
+        color: #c3baaa;
+    }
+
+    #blog-link{
+        color: #111;
+        -webkit-text-decoration: underline;
+        text-decoration: underline;
+        font-weight: 600;
+        overflow-wrap: break-word;
+        white-space: nowrap;
+        font-family: 'serif';
+        color: rgb(45, 62, 80);
+        font-style: italic;
+        font-size: 0.4rem;
+    }
+
+    .editor-preview-para{
+
+        text-align:justify;
+        font-size:.47rem;
+        width:100%;
+        font-family: sans-serif;
+        color: #111111;
+        margin:0.5rem 0 0.5rem 0;
+        overflow-wrap:break-word;
+        line-height:1.8;
+        tab-size:4;
+    }
+
+    blockquote p{
+        display:inline;
+        font-size:0.4rem;
+        margin-bottom:0;
+    }
+
+    .inline-pre{
+        display:inline;
+        background-color:rgb(217, 219, 222);
+        font-size: 0.35rem;
+        padding: 3px 10px 3px 10px;
+        color: rgb(45, 62, 80);
+    }
+/*!****************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/EditorClient/src/css/showPreview.css ***!
+  \****************************************************************************************************/
+.editor-modal {
+    display: none; 
+    position: fixed; 
+    padding-top:70px;
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(45,62,80); 
+    background-color: rgba(45,62,80,0.6); 
+  }
+  
+  .editor-modal-content {
+    background-color: #fefefe;
+    padding: 20px 20px 10px 20px;
+    border: 1px solid rgb(45,62,80);
+    width: 60vw; 
+  }
+  
+  .editor-close {
+    color: rgb(45,62,80);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .editor-close:hover,
+  .editor-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+/*!************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/EditorClient/src/css/sideNav.css ***!
+  \************************************************************************************************/
+.editor-sideBar{
+    width: 35vw;
+    z-index: 3;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: rgb(195, 197, 197);
+    background-color: rgb(248, 248, 248);
+}
+
+#editor-sideBar-button{
+    font-size: 0.35rem;
+    font-weight: 600;
+    border: none;
+    margin-left: 0.35rem;
+    padding:0.15rem;
+    color: rgb(45,56,110);
+    background-color:rgb(248, 248, 248);
+    cursor: pointer;
+}
+
+#editor-sideBar-button:hover{
+    background-color: rgb(195, 197, 197);
+}
+
+#editor-sideBar-button span{
+    padding-left: 5px;
+    font-size: 0.35rem;
+}
+
+#editor-sideBar-content{
+    margin: 0.5rem;
+    margin-top: 0.25rem;
+    border-top-style:solid ;
+    border-top-width: 1px ;
+    border-top-color: rgb(195, 197, 197);
+}
+
+.editor-sideBar-content-div{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.15rem;
+    border-color :rgb(195, 197, 197);
+    margin-bottom:0.35rem ;
+    background-color: white;
+}
+
+#editor-d{
+    margin-bottom:0.35rem ;
+}
+
+#editor-d h2{
+    font-size: 0.42rem;
+    padding: 0.28rem 0.28rem 0 0.28rem;
+    color: #161e42;
+}
+
+.editor-sideBar-content-div h3{
+    font-size: 0.35rem;
+    padding: 0.28rem 0.28rem 0 0.28rem;
+    color: #2d386e;
+}
+#editor-d p{
+    font-size: 0.39rem;
+    padding: 0.28rem;
+    color: rgba(45,56,110,0.7);
+    font-family:'Times New Roman', Times, serif;
+}
+.editor-sideBar-content-div p{
+    font-size: 0.32rem;
+    padding: 0.28rem;
+    color: rgba(45,56,110,0.7);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.editor-sideBar-content-div textarea{
+    width: 28vw;
+    font-size: 0.32rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    padding: 0.30rem;
+    margin: 0 0.25rem 0.25rem 0.25rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(45,56,110,0.4);
+    border-radius: 8px;
+    resize: vertical;
+    color: rgba(45,56,110,0.7);
+}
+
+#editor-textarea-seo-desc{
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.editor-sideBar-content-div textarea:focus{
+    border-color: rgba(45,56,110,1);
+}
+/*!***********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/EditorClient/src/css/editor.css ***!
+  \***********************************************************************************************/
+.editor-editor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr .5fr;
+    margin: 0 auto;
+}
+
+.editor-editorActive{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.editor-editorDiv{
+    width: 60vw;
+}
+
+.editor-sideBarDiv{
+    width: 35vw;
+    display: none;
+}
+/*!**************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/EditorClient/src/css/editorapp.css ***!
+  \**************************************************************************************************/
+.editor-editor-app{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    min-height: 100vh;  
+}
+
+/*# sourceMappingURL=src_Clients_EditorClient_src_components_EditorApp_jsx.style.3dac169a.css.map*/

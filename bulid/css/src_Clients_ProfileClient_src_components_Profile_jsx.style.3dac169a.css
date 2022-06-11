@@ -1,0 +1,377 @@
+/*!****************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/LandingpageClient/src/css/Navbar.css ***!
+  \****************************************************************************************************/
+.lpage-nav{
+    z-index: 100;
+    height:1.4rem;
+    width:100vw;
+    font-family: monospace;
+    position:fixed;
+    top: 0;
+    font-size: 0.4rem;
+    background-color: rgb(50, 190, 143);
+    color: white;
+}
+
+.lpage-logo{
+    position: relative;
+    width:1.8rem;
+    height:1rem;
+    line-height: 1.4rem;
+}
+
+#lpage-navbarCompanyLogo{
+    position: absolute;
+    top:0.7rem;
+    left:6vw;
+    height:100%;
+    width:1.8rem;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+
+.lpage-navbarLeft{
+    display: inline;
+    float: left;
+}
+
+.lpage-a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+#lpage-home{
+    display: inline;
+    margin-left: 6vw;
+    line-height: 1.4rem;
+    cursor: pointer;
+}
+
+.lpage-navbarRight,.navbarRightActive{
+    display: inline;
+    float: right;
+    margin-right: 6vw;
+}
+
+.lpage-navbarButton{
+    display: none;
+    height: 100%;
+    width: 0.8rem;
+    float: right;
+    margin-right: 3vw;
+}
+
+.lpage-navbarButton span{
+    display: block;
+    height:0.1rem;
+    width:0.8rem;
+    background-color: white;
+}
+
+#lpage-span1{
+    margin-top:0.5rem;
+}
+
+#lpage-span2{
+    margin-top:0.3rem;
+}
+
+#lpage-span3{
+    margin-top: 0.3rem;
+}
+
+#lpage-about,#lpage-blogs,#lpage-login,#lpage-logout{
+    display: inline;
+    margin-left: 3vw;
+    line-height: 1.4rem;
+    cursor: pointer;
+}
+
+#lpage-logout{
+    margin-right:3vw;
+}
+
+#lpage-home:hover, #lpage-about:hover,#lpage-blogs:hover,#lpage-login:hover,#lpage-logout:hover{
+    color:#2d386e;
+}
+
+.dropbtn {
+    font-size: 0.4rem;
+    display: inline-block;
+    margin: 0;
+    padding : 0;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    width: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    border: solid white 2px;
+  }
+  
+  #btn-blog{
+    border: none;
+  }
+
+  #drp-blog{
+    width: max-content;
+  }
+
+  .dropdown {
+    display: inline-block;
+    color: white;
+    margin-left: 2.5vw;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  #lpage-profile{
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(79, 224, 192) ;
+  }
+
+  .dropdown-content {
+    display: none;
+    font-size: 0.3rem;
+    position: absolute;
+    top:1.39rem;
+    min-width: 154px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #2d386e;
+    padding: 10px 14px;
+    background-color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover{
+    color: rgb(79, 224, 192);
+  }
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color: #2d386e;}
+
+@media  only screen and (max-width:768px) {
+
+    .lpage-nav{
+        height: 2rem;
+        line-height: 2rem;
+        font-size:0.55rem;
+    }
+
+    .lpage-navbarButton{
+        display: inline;
+    }
+    
+    #lpage-navbarCompanyLogo{
+        top:1rem;
+    }
+
+    #lpage-home{
+        margin-left:6vw;
+        line-height: 2rem;
+    }
+
+    .lpage-navbarRight{
+        display:none;
+    }
+    .lpage-navbarRightActive{
+        position:relative;
+        display: block;
+        float: none;
+        background-color: white;
+        color: rgb(50, 190, 143);
+    }
+
+     #lpage-about, .dropdown, .lpage-navbarRightActive #lpage-blogs, .lpage-navbarRightActive #lpage-login, .lpage-navbarRightActive #lpage-logout{
+        display: block;
+        width: 100vw;
+        height: 2rem;
+        line-height: 2rem;
+        font-size: 0.4rem;
+        margin: 0;
+        padding-left:3vw ;
+        border-bottom:0.1px solid rgb(50, 190, 143);
+    }
+    .lpage-navbarRightActive #lpage-about{
+        border-top: 0.1px solid white;
+    }
+
+    .dropdown-content{
+        top: 0;
+        position: relative;
+    }
+
+    .lpage-a{
+        color:rgb(50, 190, 143);
+    }
+
+    .dropbtn{
+        border: solid rgb(50, 190, 143) 2px;
+        color: rgb(50, 190, 143);
+    }
+
+    .dropdown-content a {
+        padding: 5px;
+        height: 1.2rem;
+        line-height: 1.2rem;
+        font-size: 0.4rem;
+    }
+
+}
+/*!*************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/ProfileClient/src/css/profile.css ***!
+  \*************************************************************************************************/
+.profile{
+    width: 70vw;
+    margin:0 auto;
+	margin-top:1.8rem;
+    background-color: white;
+    padding-bottom: 0.25rem;
+    margin-bottom:0.25rem;
+}
+
+#profile-content{
+    width:60vw;
+    margin: 0 auto;
+    margin-top: 0.25rem;
+}
+
+.profile-content-div{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.15rem;
+    border-color :rgb(118, 120, 120);
+    margin-bottom:0.35rem ;
+    background-color: white;
+}
+
+.auth{
+	position: relative;
+	top:1rem;
+}
+
+.auth-wave{
+	position: fixed;
+	top:1.4rem;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	z-index: -1;
+}
+
+#profile-d{
+    margin-bottom:0.35rem ;
+    padding-top: 0.70rem;
+}
+
+#h2div{
+    margin-bottom: 0.2rem;
+    background-color:rgb(50, 190, 143,0.1); 
+    color: #161e42;
+    height:1.5rem;
+    border-bottom: 1px solid rgba(42, 56, 128, 0.4);
+}
+
+#h2div h2{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 45vw;
+    padding-left: 5vw;
+    font-size: 0.65rem;
+    line-height: 1.5rem;
+}
+
+#h2div button{
+    width:14vw;
+    height : 1rem;
+    line-height: 1.1rem;
+    margin-left:5vw;
+    background-color: rgb(50, 190, 143);
+    color: white;
+    border: none;
+    font-size: 0.4rem;
+    cursor: pointer;
+}
+
+#h2div button:hover{
+    background-color: rgba(50, 190, 143,0.5);
+}
+
+.profile-content-div h3{
+    font-size: 0.42rem;
+    padding: 0.28rem 0.28rem 0 0.28rem;
+    color: #28367e;
+}
+#profile-d p{
+    font-size: 0.45rem;
+    padding-bottom: 0.28rem;
+    color: rgba(42, 56, 128, 0.9);
+    font-family:'Times New Roman', Times, serif;
+}
+.profile-content-div p{
+    font-size: 0.38rem;
+    padding: 0.28rem;
+    color: rgba(42, 56, 128, 0.9);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.profile-content-div textarea{
+    width: 52.5vw;
+    font-size: 0.30rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    padding: 0.20rem;
+    margin: 0 0.25rem 0.25rem 0.25rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(42, 56, 128, 0.6);
+    border-radius: 8px;
+    resize: none;
+    color: rgba(42, 56, 128, 0.9);
+}
+
+#profile-textarea-seo-desc{
+    height: 1.4rem;
+    padding: 0.4rem;
+}
+
+#profile-input{
+    width:52.5vw;
+    border:none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(42, 56, 128, 0.4);
+    border-radius: 8px;
+    height: 1rem;
+    line-height: 0.4rem;
+    color: rgba(42, 56, 128, 0.9);
+}
+
+.profile-content-div textarea:focus{
+    border-color: rgba(42, 56, 128, 1);
+}
+
+textarea::placeholder{
+    color: rgba(42, 56, 128, 0.4);
+    font-size: 0.3rem;
+}
+
+input::placeholder{
+    color:rgba(42, 56, 128, 0.4);
+}
+
+
+@media  only screen and (max-width:768px) {
+    .profile{
+        margin-top: 4rem;
+    }
+}
+
+/*# sourceMappingURL=src_Clients_ProfileClient_src_components_Profile_jsx.style.3dac169a.css.map*/
