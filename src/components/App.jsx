@@ -11,7 +11,8 @@ const LoginForm =lazy(() => import('../Clients/AuthClient/src/component/LoginFor
 const SignupForm = lazy(() => import('../Clients/AuthClient/src/component/SignupForm'))
 const LandingApp = lazy(() => import('../Clients/LandingpageClient/src/components/LandingApp'))
 const Footer = lazy(() => import('../Clients/LandingpageClient/src/components/Footer'))
-import Dashboard from '../Clients/Dashboard/Dashboard';
+const BlogBulkUpload = lazy(() => import('../Clients/EditorClient/src/components/bulkpage/BlogBulkUpload'))
+const Dashboard = lazy(() => import ('../Clients/Dashboard/Dashboard'));
 const App = () => {
     const footerRef = useRef(null)
 	const User = useSelector((state) => state.auth)
@@ -35,6 +36,7 @@ const App = () => {
                     <Route path='/auth/login' element={<LoginForm footerRef={footerRef}/>} />
                     <Route path='/auth/signup' element={<SignupForm footerRef={footerRef}/>} />
                     <Route path='/blog/new' element={<EditorApp footerRef={footerRef}/>}/>
+                    <Route path='/blog/bulkupload' element={<BlogBulkUpload />}/>
                 </Routes>
             </Suspense>
         </div>
