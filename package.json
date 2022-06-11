@@ -1,0 +1,65 @@
+{
+  "name": "newgen",
+  "version": "1.0.0",
+  "description": "NewGen App",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js  --env env=dev",
+    "build": "webpack --config webpack.config.js --env env=prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mVaibhavPrakash/NewGen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mVaibhavPrakash/NewGen/issues"
+  },
+  "homepage": "https://github.com/mVaibhavPrakash/NewGen#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/runtime": "^7.17.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.6.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "husky": "^7.0.4",
+    "mini-css-extract-plugin": "^2.5.3",
+    "path": "^0.12.7",
+    "react-refresh": "^0.12.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.17",
+    "@reduxjs/toolkit": "^1.8.1",
+    "axios": "^0.26.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "formik": "^2.2.9",
+    "jsonwebtoken": "^8.5.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-markdown": "^8.0.0",
+    "react-query": "^4.0.0-beta.2",
+    "react-redux": "^7.2.8",
+    "react-router-dom": "^6.2.1",
+    "react-syntax-highlighter": "^15.4.5",
+    "remark-gfm": "^3.0.1"
+  }
+}

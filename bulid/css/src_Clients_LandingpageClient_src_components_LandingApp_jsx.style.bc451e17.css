@@ -1,0 +1,401 @@
+/*!***************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/LandingpageClient/src/css/Image.css ***!
+  \***************************************************************************************************/
+@media only screen and (max-width: 600px) {
+    .lpage-image-right{
+        height: 70%;
+    }
+}
+
+.img {
+    object-fit: contain;
+}
+/*!*************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/LandingpageClient/src/css/Top.css ***!
+  \*************************************************************************************************/
+#lpage-top{
+    width:70vw;
+    margin: 0 auto;
+    margin-top:4rem;
+    margin-bottom: 1.4rem;
+    display:grid;
+    grid-template-columns:60% 40%;
+    grid-template-rows:repeat(1,1fr);
+}
+
+#lpage-top1-content{
+    padding-top:5%;
+    font-size:0.8rem;
+    padding:10px 10px 10px 10px;
+}
+
+#lpage-top1-p{
+    font-size: 1rem;
+    font-weight: 800;
+    word-wrap: break-word;
+    color: #2d386e;
+    letter-spacing: -0.025em;
+}
+
+.lpage-top1-button{
+    background-color:white;
+    margin-top: 1rem;
+    color: #38366c;
+    font-weight: 500;
+    border:none;
+    width:28%;
+    height:1rem;
+    font-size:0.5rem;
+    border-radius:0.30rem;
+}
+
+.lpage-top1-button:hover{
+    background-color: #d1e6fd;
+    color:rgb(50, 190, 143)
+}
+
+#lpage-top1-para{
+    font-size: 0.6rem;
+    font-weight: 200;
+    word-wrap: break-word;
+    color: #2d386e;
+    letter-spacing: -0.025em;
+    margin-top: 0.30rem;
+}
+/*!**************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/LandingpageClient/src/css/Card.css ***!
+  \**************************************************************************************************/
+.lpage-card{
+    font-size: 0.2rem;
+    box-shadow: 0 3px 10px #8080bd;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+}
+
+.lpage-card-title{
+    font-size: 0.40rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    color: #182b81;
+}
+
+.lpage-card-content{
+    font-size: 0.33rem;
+    padding-bottom: 0.30rem;
+    color: #8080bd;
+}
+
+.lpage-card-icon{
+    margin-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    font-size: 0.5rem;
+    color:#4fe0c0;
+}
+/*!***************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/LandingpageClient/src/css/Cards.css ***!
+  \***************************************************************************************************/
+.lpage-cards{
+    width:70vw;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+}
+
+.lpage-card-icon{
+    padding-top: 0.2rem;
+    font-size: 1rem;
+}
+
+#lpage-cards-p{
+    font-size: 0.90rem;
+    width: 90%;
+    margin: 0 auto;
+    word-wrap: break-word;
+    text-align: center;
+    font-weight: 400;
+    color: #2d386e;
+    margin-top: 0.30rem;
+}
+
+#lpage-cards-pp{
+    font-size: 0.56rem;
+    width: 80%;
+    margin: 0 auto;
+    word-wrap: break-word;
+    text-align: center;
+    font-weight: 300;
+    color: #2d386e;
+    margin-top: 0.30rem;
+}
+
+#lpage-cards-card{
+    width:70vw;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #lpage-cards-card{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+}
+/*!****************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/LandingpageClient/src/css/Navbar.css ***!
+  \****************************************************************************************************/
+.lpage-nav{
+    z-index: 100;
+    height:1.4rem;
+    width:100vw;
+    font-family: monospace;
+    position:fixed;
+    top: 0;
+    font-size: 0.4rem;
+    background-color: rgb(50, 190, 143);
+    color: white;
+}
+
+.lpage-logo{
+    position: relative;
+    width:1.8rem;
+    height:1rem;
+    line-height: 1.4rem;
+}
+
+#lpage-navbarCompanyLogo{
+    position: absolute;
+    top:0.7rem;
+    left:6vw;
+    height:100%;
+    width:1.8rem;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+
+.lpage-navbarLeft{
+    display: inline;
+    float: left;
+}
+
+.lpage-a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+#lpage-home{
+    display: inline;
+    margin-left: 6vw;
+    line-height: 1.4rem;
+    cursor: pointer;
+}
+
+.lpage-navbarRight,.navbarRightActive{
+    display: inline;
+    float: right;
+    margin-right: 6vw;
+}
+
+.lpage-navbarButton{
+    display: none;
+    height: 100%;
+    width: 0.8rem;
+    float: right;
+    margin-right: 3vw;
+}
+
+.lpage-navbarButton span{
+    display: block;
+    height:0.1rem;
+    width:0.8rem;
+    background-color: white;
+}
+
+#lpage-span1{
+    margin-top:0.5rem;
+}
+
+#lpage-span2{
+    margin-top:0.3rem;
+}
+
+#lpage-span3{
+    margin-top: 0.3rem;
+}
+
+#lpage-about,#lpage-blogs,#lpage-login,#lpage-logout{
+    display: inline;
+    margin-left: 3vw;
+    line-height: 1.4rem;
+    cursor: pointer;
+}
+
+#lpage-logout{
+    margin-right:3vw;
+}
+
+#lpage-home:hover, #lpage-about:hover,#lpage-blogs:hover,#lpage-login:hover,#lpage-logout:hover{
+    color:#2d386e;
+}
+
+.dropbtn {
+    font-size: 0.4rem;
+    display: inline-block;
+    margin: 0;
+    padding : 0;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    width: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    border: solid white 2px;
+  }
+  
+  #btn-blog{
+    border: none;
+  }
+
+  #drp-blog{
+    width: max-content;
+  }
+
+  .dropdown {
+    display: inline-block;
+    color: white;
+    margin-left: 2.5vw;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  #lpage-profile{
+    border-radius: 50%;
+  }
+
+  .dropdown-content {
+    display: none;
+    font-size: 0.3rem;
+    position: absolute;
+    top:1.39rem;
+    min-width: 154px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #2d386e;
+    padding: 10px 14px;
+    background-color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover{
+    color: rgb(79, 224, 192)
+  }
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color: #2d386e;}
+
+@media  only screen and (max-width:768px) {
+
+    .lpage-nav{
+        height: 2rem;
+        line-height: 2rem;
+        font-size:0.55rem;
+    }
+
+    .lpage-navbarButton{
+        display: inline;
+    }
+    
+    #lpage-navbarCompanyLogo{
+        top:1rem;
+    }
+
+    #lpage-home{
+        margin-left:6vw;
+        line-height: 2rem;
+    }
+
+    .lpage-navbarRight{
+        display:none;
+    }
+    .lpage-navbarRightActive{
+        position:relative;
+        display: block;
+        float: none;
+        background-color: white;
+        color: rgb(50, 190, 143);
+    }
+
+     #lpage-about, .dropdown, .lpage-navbarRightActive #lpage-blogs, .lpage-navbarRightActive #lpage-login, .lpage-navbarRightActive #lpage-logout{
+        display: block;
+        width: 100vw;
+        height: 2rem;
+        line-height: 2rem;
+        font-size: 0.4rem;
+        margin: 0;
+        padding-left:3vw ;
+        border-bottom:0.1px solid rgb(50, 190, 143);
+    }
+    .lpage-navbarRightActive #lpage-about{
+        border-top: 0.1px solid white;
+    }
+
+    .dropdown-content{
+        top: 0;
+        position: relative;
+    }
+
+    .lpage-a{
+        color:rgb(50, 190, 143);
+    }
+
+    .dropbtn{
+        border: solid rgb(50, 190, 143) 2px;
+        color: rgb(50, 190, 143);
+    }
+
+    .dropdown-content a {
+        padding: 5px;
+        height: 1.2rem;
+        line-height: 1.2rem;
+        font-size: 0.4rem;
+    }
+
+}
+/*!*********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Clients/LandingpageClient/src/css/Landingpage.css ***!
+  \*********************************************************************************************************/
+.lpage{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5,auto);
+    min-height: 100vh;
+}
+
+.auth{
+	position: relative;
+	top:1rem;
+}
+
+.auth-wave{
+	position: fixed;
+	top:1.4rem;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	z-index: -1;
+}
+
+/*# sourceMappingURL=src_Clients_LandingpageClient_src_components_LandingApp_jsx.style.bc451e17.css.map*/
