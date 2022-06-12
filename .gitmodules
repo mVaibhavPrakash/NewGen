@@ -1,0 +1,15 @@
+[submodule "src/Clients/AuthClient"]
+	path = src/Clients/AuthClient
+	url = https://github.com/mVaibhavPrakash/NewGen-LandingPage.git
+[submodule "src/Clients/Dashboard"]
+	path = src/Clients/Dashboard
+	url = https://github.com/mVaibhavPrakash/NewGen-Dashboard.git
+[submodule "src/Clients/EditorClient"]
+	path = src/Clients/EditorClient
+	url = https://github.com/mVaibhavPrakash/NewGen-EditorClient.git
+[submodule "src/Clients/LandingpageClient"]
+	path = src/Clients/LandingpageClient
+	url = https://github.com/mVaibhavPrakash/NewGen-LandingPage.git
+[submodule "src/Clients/ProfileClient"]
+	path = src/Clients/ProfileClient
+	url = https://github.com/mVaibhavPrakash/NewGen-Profile.git
