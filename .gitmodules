@@ -1,6 +1,6 @@
 [submodule "src/Clients/AuthClient"]
 	path = src/Clients/AuthClient
-	url = https://github.com/mVaibhavPrakash/NewGen-LandingPage.git
+	url = https://github.com/mVaibhavPrakash/NewGen-AuthClient.git
 [submodule "src/Clients/Dashboard"]
 	path = src/Clients/Dashboard
 	url = https://github.com/mVaibhavPrakash/NewGen-Dashboard.git
