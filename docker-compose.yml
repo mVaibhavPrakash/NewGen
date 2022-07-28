@@ -1,0 +1,7 @@
+version: 'version'
+
+services:
+  server:
+    image: 'nginx:stable-apline'
+    ports:
+      - 8080:8080

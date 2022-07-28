@@ -1,4 +1,4 @@
-import { useRef,useEffect,lazy,Suspense} from 'react'
+import { useRef,useEffect,lazy,Suspense,useContext} from 'react'
 import {Routes,Route} from 'react-router-dom'
 import {useSelector,useDispatch} from 'react-redux'
 import getCookie from '../../src/js/getCookie';
@@ -35,12 +35,12 @@ const App = () => {
                     <Route path='/dashboard' element={<Dashboard/>}/>
                     <Route path='/auth/login' element={<LoginForm footerRef={footerRef}/>} />
                     <Route path='/auth/signup' element={<SignupForm footerRef={footerRef}/>} />
-                    <Route path='/blog/new' element={<EditorApp footerRef={footerRef}/>}/>
-                    <Route path='/blog/bulkupload' element={<BlogBulkUpload />}/>
+                    <Route path='/blog/new' element={<EditorApp footerRef={footerRef} img='not-standalone'/>}/>
+                    <Route path='/blog/bulkupload' element={<BlogBulkUpload footerRef={footerRef} />}/>
                 </Routes>
             </Suspense>
         </div>
-        <Footer footerRef={footerRef}/>
+        <Footer footerRef={footerRef}/> 
         </div>
     )
 }

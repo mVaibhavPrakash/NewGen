@@ -4,3 +4,12 @@ node_modules
 /build
 \build
 build
+
+\src\Clients\EditorClient\node_modules
+
+\src\Clients\EditorClient\public
+
+\src\Clients\EditorClient\.babelrc.json
+\src\Clients\EditorClient\READEME.md
+\src\Clients\EditorClient\package*
+\src\Clients\EditorClient\webpack.*

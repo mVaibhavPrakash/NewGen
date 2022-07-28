@@ -13,11 +13,11 @@ module.exports = {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
         use: ['babel-loader'],
       },
       {
         test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+        exclude: '/src/Clients/EditorClient/public/img',
         type: 'asset/resource',
       },
       {
@@ -31,11 +31,15 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx', '.tsx', '.ts'],
+    extensions: ['*', '.js', '.jsx', '.tsx', '.ts', '.json'],
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './public/index.html'),
+      exclude: path.resolve(
+        __dirname,
+        './src/Clients/EditorClient/public/index.html'
+      ),
       favicon: './public/img/newgen.ico',
     }),
     new MiniCssExtractPlugin({
