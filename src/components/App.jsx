@@ -5,12 +5,12 @@ import getCookie from '../../src/js/getCookie';
 import Spinner from './Spinner';
 import {setUser} from '../redux/slices/authSlice'
 import { setLoggedIn } from '../redux/slices/authSlice';
+import Footer from '../Clients/LandingpageClient/src/components/Footer'
 const Profile = lazy(() => import('../Clients/ProfileClient/src/components/Profile'))
 const EditorApp = lazy(() => import('../Clients/EditorClient/src/components/EditorApp'))
 const LoginForm =lazy(() => import('../Clients/AuthClient/src/component/LoginForm'))
 const SignupForm = lazy(() => import('../Clients/AuthClient/src/component/SignupForm'))
 const LandingApp = lazy(() => import('../Clients/LandingpageClient/src/components/LandingApp'))
-const Footer = lazy(() => import('../Clients/LandingpageClient/src/components/Footer'))
 const BlogBulkUpload = lazy(() => import('../Clients/EditorClient/src/components/bulkpage/BlogBulkUpload'))
 const Dashboard = lazy(() => import ('../Clients/Dashboard/Dashboard'));
 const App = () => {
@@ -35,7 +35,7 @@ const App = () => {
                     <Route path='/dashboard' element={<Dashboard/>}/>
                     <Route path='/auth/login' element={<LoginForm footerRef={footerRef}/>} />
                     <Route path='/auth/signup' element={<SignupForm footerRef={footerRef}/>} />
-                    <Route path='/blog/new' element={<EditorApp footerRef={footerRef} img='not-standalone'/>}/>
+                    <Route path='/blog/new' element={<EditorApp footerRef={footerRef}/>}/>
                     <Route path='/blog/bulkupload' element={<BlogBulkUpload footerRef={footerRef} />}/>
                 </Routes>
             </Suspense>

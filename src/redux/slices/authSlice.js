@@ -3,21 +3,23 @@ import { createSlice } from '@reduxjs/toolkit'
 const authSlice = createSlice({
   name: 'auth',
   initialState: {
+    uid_person: '',
     username: '',
-    firstname: '',
+    fullname: '',
     isLoggedIn: false,
-    profileCreated: false,
+    isProfileCreated: false,
   },
   reducers: {
-    setProfileCreated: (state) => {
-      state.profileCreated = true
+    setProfileCreated: (state, action) => {
+      state.isProfileCreated = action.isProfileCreated
     },
     setUser: (state, action) => {
-      state.username = action.payload.username
-      state.firstname = action.payload.firstname
+      state.uid_person = action.uid_person
+      state.username = action.username
+      state.fullname = action.fullname
     },
-    setLoggedIn: (state) => {
-      state.isLoggedIn = !state.isLoggedIn
+    setLoggedIn: (state, action) => {
+      state.isLoggedIn = action.isLoggedIn
     },
   },
 })
